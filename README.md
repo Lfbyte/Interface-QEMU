@@ -1,6 +1,6 @@
 ## Como utilizar?
 
- - Para utilização de um HDA, execute o script "criar-hda" para criação de um disco virtual formato **qcow2** para uso dentro do _*QEMU*_
+ - Para utilização de um HDA, execute o script "criar-hda" com python 3, para criação de um disco virtual formato **qcow2** para uso dentro do _*QEMU*_
  - Um arquivo .iso pode ser testado sem um HDA
  - Caso exista um HDA com ocupação de sistema não é necessário a inserção do parâmetro de ISO
 
