@@ -6,6 +6,7 @@
 
 ![image](https://raw.githubusercontent.com/Lfbyte/Interface-QEMU/refs/heads/main/img/img.png)
 
+https://github.com/user-attachments/assets/f6de774e-bdea-4c06-aac6-142ac07423b9
 
 ## Dependências
 - QEMU
