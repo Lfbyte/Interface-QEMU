@@ -21,7 +21,7 @@ ou
 > 
 > **Arch Linux**:
 > * pacman -Sy tk ou sudo pacman -Sy tk
-
+> * pacman -Sy qemu
 - Produzido com python 3.13
 ### Versões - RELEASE
 
