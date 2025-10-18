@@ -1,4 +1,4 @@
-## Como usar?
+## Como utilizar?
 
 -> Para utilização de um HDA, execute o script "criar-hda" para criação de um disco virtual formato **qcow2** para uso dentro do _*QEMU*_:
 -> Um arquivo .iso pode ser testado sem um HDA
