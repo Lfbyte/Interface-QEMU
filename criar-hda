@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+#Github: Lfbyte
+import os
+try:
+	print("")
+	print("--- Quantidade de espaço em disco ---")
+	memoria = input("Digite a quantidade desejada de gigabytes: ").strip()
+	print("")
+	print("--- Nome do arquivo ---")
+	arquivo = input("Digite o nome do arquivo a ser criado: ").strip()
+	print("")
+	os.system(f"qemu-img create -f qcow2 {arquivo}.qcow2 {memoria}G")
+	print("")
+except KeyboardInterrupt:
+	os.system("clear")
+	print("Programa encerrado...")
