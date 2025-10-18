@@ -1,11 +1,12 @@
 ## Como usar?
 
--> Utilize o script "criar-hda" caso precise de um disco virtual para uso dentro do _*QEMU*_:
+-> Para utilização de um HDA, execute o script "criar-hda" para criação de um disco virtual formato **qcow2** para uso dentro do _*QEMU*_:
+-> Um arquivo .iso pode ser testado sem um HDA
+-> Caso exista um HDA com ocupação de sistema não é necessário a inserção do parâmetro de ISO
 
 ## Dependências
 - QEMU
-
-- O projeto usa a biblioteca: tk/tkinter. Verifique se o pacote Tk está instalado em sua distribuição:
+- tk/tkinter
 
 > pip install -r requirements.txt
 
