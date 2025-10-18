@@ -30,7 +30,7 @@ def init():
 		#Instalacao completa em modo live com suporte KVM
 		
 		elif p != "" and m != "" and k == 1 and hd != "" and cd != "":
-			os.system(f"qemu-system-x86_64 -enable-kvm -vga virtio -smp {p} -boot d -cdrom {cd} -m {m}G -hda {hd} &")		  
+			os.system(f"qemu-system-x86_64 --enable-kvm -vga virtio -smp {p} -boot d -cdrom {cd} -m {m}G -hda {hd} &")		  
 
 		
 		#instalacao completa em  modo live sem supporte ao KVM
@@ -45,12 +45,12 @@ def init():
 		
 		#boot do sistema  alocado no HDA com suporte ao KVM
 		elif p != "" and  m != ""  and k == 1  and hd != "" and cd == "":
-			os.system(f"qemu-system-x86_64 -enable-kvm -vga virtio -smp {p} -m {m}G -hda {hd} &")
+			os.system(f"qemu-system-x86_64 --enable-kvm -vga virtio -smp {p} -m {m}G -hda {hd} &")
 			
 		
 		#boot apenas da iso LIVE sem HDA com suporte ao KVM
 		elif p != "" and m != "" and k == 1 and hd == "" and cd != "":
-			os.system(f"qemu-system-x86_64 -enable-kvm -vga virtio -smp {p} -boot d -cdrom {cd} -m {m}G &")	
+			os.system(f"qemu-system-x86_64 --enable-kvm -vga virtio -smp {p} -boot d -cdrom {cd} -m {m}G &")	
 			
 		
 		#boot apenas da iso LIVE sem HDA e SEM suporte ao KVM
