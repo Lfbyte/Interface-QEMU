@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/f6de774e-bdea-4c06-aac6-142ac07423b9
 
 ou
 
-> **Ubuntu/Derivados**:
+> **Debian/Ubuntu/Derivados**:
 > * sudo apt-get install python-tk ou sudo apt-get install python-tk
 > 
 > **Arch Linux**:
